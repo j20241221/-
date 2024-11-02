@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .count-display {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  span.count-button,
+  span.background-change-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    line-height: 1;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  span.count-button {
+    color: #4CAF50;
+  }
+  
+  span.background-change-button {
+    color: #2196F3;
+    margin-top: 10px;
+  }
+  
+  span.count-button:hover,
+  span.background-change-button:hover {
+    opacity: 0.8;
+  }
